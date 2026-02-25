@@ -3,7 +3,8 @@ import Home from "./pages/landingpage";
 import Explore from "./pages/explorepage";
 import Cart from "./pages/cart";
 import OrderSummary from "./pages/ordersummary";
-import Login from "./pages/login";
+import Login from "./components/login";
+import Signup from "./components/signup";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/cart" element={<Cart />} />
       <Route path="/order-summary" element={<OrderSummary />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/signup" element={<Signup />} />
     </Routes>
   );
 }
