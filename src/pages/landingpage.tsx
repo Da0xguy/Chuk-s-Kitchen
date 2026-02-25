@@ -5,12 +5,12 @@ import Footer from "../components/footer";
 
 export default function LandingPage() {
     const categories = [
-    { title: "Jollof Delights", image: "/images/jollof.jpg" },
-    { title: "Swallow & Soups", image: "/images/swallow.jpg" },
-    { title: "Grills & BBQ", image: "/images/bbq.jpg" },
-    { title: "Sweet Treats", image: "/images/sweet.jpg" },
-    { title: "Jollof Delights", image: "/images/jollof2.jpg" },
-    { title: "Jollof Delights", image: "/images/jollof3.jpg" },
+    { title: "Jollof Delights", image: "src/assets/image 9.png" },
+    { title: "Swallow & Soups", image: "src/assets/image 7.png" },
+    { title: "Grills & BBQ", image: "src/assets/Property 1=Variant10.png" },
+    { title: "Sweet Treats", image: "src/assets/Property 1=Variant4.png" },
+    { title: "Jollof Delights", image: "src/assets/Property 1=Default.png" },
+    { title: "Jollof Delights", image: "src/assets/image 3.png" },
   ];
 
   return (
@@ -101,37 +101,37 @@ export default function LandingPage() {
         {
           title: "Spicy Tilapia Pepper Soup",
           price: "₦3,500",
-          image: "/images/tilapia.jpg",
+          image: "src/assets/Property 1=Variant7.png",
           desc: "A comforting and spicy soup with tender tilapia, a true Nigerian delicacy."
         },
         {
           title: "Jollof Rice & Fried Chicken",
           price: "₦2,500",
-          image: "/images/jollof1.jpg",
+          image: "src/assets/Property 1=Default.png",
           desc: "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken."
         },
         {
           title: "Jollof Rice & Fried Chicken",
           price: "₦3,500",
-          image: "/images/jollof2.jpg",
+          image: "src/assets/image 10.png",
           desc: "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken."
         },
         {
           title: "Jollof Rice & Smoked Chicken",
           price: "₦3,500",
-          image: "/images/jollof3.jpg",
+          image: "src/assets/image 9.png",
           desc: "Our signature Jollof rice, cooked to perfection, served with smoked chicken."
         },
         {
-          title: "Jollof Rice & Fried Chicken",
+          title: "Jollof Rice & Fried Fish",
           price: "₦2,500",
-          image: "/images/jollof4.jpg",
+          image: "src/assets/image 3.png",
           desc: "Our signature Jollof rice, cooked to perfection, served with succulent fried chicken."
         },
         {
           title: "Egusi Soup & Pounded Yam",
           price: "₦3,500",
-          image: "/images/egusi.jpg",
+          image: "src/assets/image 8.png",
           desc: "Rich and savory Egusi soup with assorted meats, paired with freshly pounded yam."
         },
       ].map((item, index) => (

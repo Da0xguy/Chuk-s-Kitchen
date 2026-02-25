@@ -17,7 +17,7 @@ const initialItems: CartItem[] = [
     name: "Jollof Rice & Fried Chicken",
     description: "With plantain, extra pepper sauce",
     price: 3200,
-    image: "https://via.placeholder.com/80",
+    image: "src/assets/image 9.png",
     quantity: 1,
   },
   {
@@ -25,7 +25,7 @@ const initialItems: CartItem[] = [
     name: "Jollof Rice & Fried Chicken",
     description: "With plantain, extra pepper sauce",
     price: 3200,
-    image: "https://via.placeholder.com/80",
+    image: "src/assets/image4.png",
     quantity: 1,
   },
 ];
@@ -65,7 +65,7 @@ const Cart: React.FC = () => {
   return (
     <>
     <Navbar />
-    <div className="bg-gray-100 p-6 rounded-lg max-w-3xl mx-auto">
+    <div className="bg-gray-100 p-6 rounded-lg max-w-3xl mx-auto my-22">
       <h2 className="text-lg font-semibold mb-4">Your Cart</h2>
 
       {cartItems.map((item) => (
@@ -116,7 +116,7 @@ const Cart: React.FC = () => {
       ))}
 
       <div className="flex justify-between items-center mt-6">
-        <a href="#" className="text-blue-600 text-sm">
+        <a href="/explore" className="text-blue-600 text-sm">
           + Add more items from Chuck's Kitchen
         </a>
 
@@ -124,6 +124,7 @@ const Cart: React.FC = () => {
           Total: ₦{total.toLocaleString()}
         </div>
       </div>
+      <button className="bg-orange-500 hover:bg-orange-600 px-12 py-2 rounded-md text-white transition">Checkout</button>
     </div>
     <Footer />
     </>

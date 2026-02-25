@@ -30,7 +30,7 @@ const Explore: FC = () => {
       name: "Jollof Rice & Fried Chicken",
       desc: "Our signature jollof rice, served with crispy fried chicken and plantain.",
       price: "₦3,500",
-      image: "",
+      image: "src/assets/image 9.png",
       category: "Jollof Rice & Entrees",
     },
     {
@@ -38,7 +38,7 @@ const Explore: FC = () => {
       name: "Jollof Rice & Smoked Fish",
       desc: "Flavorful jollof rice served with perfectly smoked fish.",
       price: "₦3,500",
-      image: "",
+      image: "src/assets/image 3.png",
       category: "Jollof Rice & Entrees",
     },
     {
@@ -46,7 +46,7 @@ const Explore: FC = () => {
       name: "Eba & Egusi Soup (Goat Meat)",
       desc: "Hearty Egusi soup with tender goat meat, served with soft Eba.",
       price: "₦3,700",
-      image: "",
+      image: "src/assets/image 8.png",
       category: "Swallow & Soups",
     },
     {
@@ -54,7 +54,7 @@ const Explore: FC = () => {
       name: "Peppered Snail",
       desc: "Spicy and savory peppered snail, perfect as a starter.",
       price: "₦2,000",
-      image: "",
+      image: "src/assets/image 5.png",
       category: "Grills & Sides",
     },
   ];
@@ -75,7 +75,7 @@ const Explore: FC = () => {
           className="h-[280px] bg-cover bg-center relative flex items-end p-8 text-white"
           style={{
             backgroundImage:
-              "",
+              "src/assets/image4.png",
           }}
         >
           <div className="absolute inset-0 bg-black/50" />
@@ -114,8 +114,8 @@ const Explore: FC = () => {
               {activeCategory}
             </h2>
 
-            <div className="grid grid-cols-auto-fill gap-5">
-              {filteredProducts.map((product) => (
+            <div className="grid grid-row-auto-fill gap-5">
+              {filteredProducts.map((product) => ( 
                 <div
                   key={product.id}
                   onClick={() => setSelectedProduct(product)}

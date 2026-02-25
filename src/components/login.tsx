@@ -1,9 +1,10 @@
 import { FC, useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Login: FC = () => {
   const [showPassword, setShowPassword] = useState(false);
-
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen flex">
 
@@ -12,7 +13,7 @@ const Login: FC = () => {
 
         {/* Background Image */}
         <img
-          src="/food.jpg"
+          src="src/assets/image 11.png"
           alt="Nigerian Food"
           className="absolute inset-0 w-full h-full object-cover"
         />
