@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 
 const Login: FC = () => {
   const [showPassword, setShowPassword] = useState(false);
-  const navigate = useNavigate();
   return (
     <div className="min-h-screen flex">
 
@@ -116,9 +115,9 @@ const Login: FC = () => {
           {/* Signup */}
           <p className="text-center text-sm text-gray-600 mt-6">
             Don’t have an account?
-            <span className="text-blue-600 cursor-pointer hover:underline ml-1">
+            <a href="/signup" className="text-blue-600 cursor-pointer hover:underline ml-1">
               Create an account
-            </span>
+            </a>
           </p>
 
         </div>
