@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../assets/Chuks.png";
 
 export default function Navbar() {
   return (
@@ -6,9 +7,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-7 py-3 flex items-center justify-between">
 
         {/* Logo */}
-        <h1 className="font-heading text-xl text-gray-900 font-semibold">
-          Chuks Kitchen
-        </h1>
+        <img src={Logo} alt="Chuks Kitchen Logo" className="w-38 h-8" />
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center gap-8 text-gray-700 text-sm">
