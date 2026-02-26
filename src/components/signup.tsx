@@ -150,9 +150,9 @@ const Signup: FC = () => {
           {/* Login Link */}
           <p className="text-center text-sm text-gray-600 mt-6">
             Already have an account?
-            <span className="text-blue-600 cursor-pointer hover:underline ml-1">
+            <a href="/login" className="text-blue-600 cursor-pointer hover:underline ml-1">
               Login
-            </span>
+            </a>
           </p>
 
         </div>

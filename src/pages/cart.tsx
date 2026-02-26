@@ -124,7 +124,7 @@ const Cart: React.FC = () => {
           Total: ₦{total.toLocaleString()}
         </div>
       </div>
-      <button className="bg-orange-500 hover:bg-orange-600 px-12 py-2 rounded-md text-white transition">Checkout</button>
+      <a href="/order-summary" className="bg-orange-500 hover:bg-orange-600 px-12 py-2 rounded-md text-white transition">Checkout</a>
     </div>
     <Footer />
     </>
