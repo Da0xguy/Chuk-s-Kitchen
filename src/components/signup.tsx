@@ -1,5 +1,6 @@
 import { FC, useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
+import Logo from "../assets/Chuks.png";
 
 const Signup: FC = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -41,9 +42,9 @@ const Signup: FC = () => {
 
           {/* Header */}
           <div className="text-center mb-6">
-            <h2 className="text-orange-600 text-lg italic font-semibold">
-              Chuks Kitchen
-            </h2>
+            <div className="px-15">
+            <img src={Logo} alt="Chuks Kitchen Logo" className="w-38 h-8" />
+            </div>
             <h3 className="text-xl font-semibold mt-1">
               Create your Account
             </h3>
