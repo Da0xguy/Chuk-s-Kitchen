@@ -40,10 +40,11 @@ export default function LandingPage() {
             <p className="text-gray-200 mt-6 text-base md:text-lg">
               Handcrafted with passion, delivered with care.
             </p>
-
-            <button className="mt-8 bg-orange-500 hover:bg-orange-600 transition-all duration-300 px-6 py-3 rounded-md text-white font-medium shadow-lg hover:scale-105">
+          <div className="py-5">
+            <a href="/explore" className="mt-8 bg-orange-500 hover:bg-orange-600 transition-all duration-300 px-6 py-3 rounded-md text-white font-medium shadow-lg hover:scale-105">
               Discover what's new
-            </button>
+            </a>
+          </div>
 
             {/* Search Bar */}
             <div className="mt-10">
