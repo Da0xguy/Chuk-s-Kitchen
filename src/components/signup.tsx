@@ -1,8 +1,8 @@
-import { FC, useState } from "react";
+import {  useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 import Logo from "../assets/Chuks.png";
 
-const Signup: FC = () => {
+const Signup: React.FC = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 

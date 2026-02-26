@@ -1,8 +1,8 @@
-import { FC, useState } from "react";
+import { useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 import Logo from "../assets/Chuks.png";
 
-const Login: FC = () => {
+const Login: React.FC = () => {
   const [showPassword, setShowPassword] = useState(false);
   return (
     <div className="min-h-screen flex">

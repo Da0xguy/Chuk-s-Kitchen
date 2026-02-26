@@ -1,10 +1,10 @@
-import { FC, useState } from "react";
+import { useState } from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
 type Step = "summary" | "checkout" | "payment";
 
-const OrderSummary: FC = () => {
+const OrderSummary: React.FC = () => {
   const [step, setStep] = useState<Step>("summary");
   const [deliveryType, setDeliveryType] = useState<"delivery" | "pickup">(
     "delivery"
